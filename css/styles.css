@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color:;
+    
+
+    
+}
+.header{
+    text-align: center;
+    background-color:red;
+    margin: 20px;
+    padding: 50px;
+    font-size: 75px;
+}
+.nav{
+    text-align: center;
+    background-color:greenyellow;
+    float: left;
+    height: 100%;
+    
+
+    
+}
