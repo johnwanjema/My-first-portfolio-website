@@ -1,12 +1,17 @@
 .body{
     text-align: center;
     background-repeat: no-repeat;
+    
     background-color: white;
-    background-image: url(/home/john/Downloads/1.jpeg) 
-
-      
+           
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .header{
+    
     text-align: center;
     background-color:red;
     padding: 10px;
