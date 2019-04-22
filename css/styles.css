@@ -1,54 +1,64 @@
 .body{
-    text-align: center;
-    background-repeat: no-repeat;
-    background-color: white;
-    background-image: url(/home/john/Downloads/1.jpeg) 
-
-      
+  text-align: center;
+  background-repeat: no-repeat;
+  
+  background-color: white;
+         
 }
-.header{
-    text-align: center;
-    background-color:red;
-    padding: 10px;
-    font-size: 75px;
+button{
+background-color: white;
+padding: 10px 20px;
+color: black;
+border: 5px solid #4CAF50; /* Green */
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.header{    
+  text-align: center;
+  background-color:red;
+  padding: 10px;
+  font-size: 75px;
 }
 .nav{
-    text-align: left;
-    background-color:greenyellow;
-    text-align: inherit;
-    
-     
+  text-align: left;
+  background-color:greenyellow;
+  text-align: inherit;
+  
+   
 }
 .footer{
-    background-color:greenyellow;
+  background-color:greenyellow;
 
 }
 
 
 ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-    text-align: center;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color:skyblue;
-  }
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  p{
-      text-transform: uppercase;
-  }
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:skyblue;
+}
+
+p{
+    text-transform: uppercase;
+}
