@@ -5,13 +5,18 @@
     background-color: white;
            
 }
+button{
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  border: 5px solid #4CAF50; /* Green */
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-.header{
-    
+.header{    
     text-align: center;
     background-color:red;
     padding: 10px;
@@ -49,7 +54,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+
   li a:hover {
     background-color:skyblue;
   }
