@@ -14,3 +14,13 @@ html {
 #contact{
   padding-top: 60px;
 }
+/* 
+@media screen and (max-width: 480px) {
+  body {
+      background-color: black;
+      color: white;
+  }
+  #contact{
+    padding-top: 700px;
+  }
+} */
