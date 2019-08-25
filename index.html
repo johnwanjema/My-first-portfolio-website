@@ -1,71 +1,343 @@
 <!DOCTYPE html>
-<html>
-    <div class="header" id="header">
-        <title>MY PORTFOLIO</title>
-        <head>JOHN WANJEMA </head>
-        <img src="images/1.jpeg" height="65px">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-    </div>
-    <div class="nav">
-        <ul>
-            <li><a href="#personal">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#hobbies">HOBBIES</a></li>
-            <li><a href="#contacts">CONTACTS</a></li>
-        </ul>
-    </div >
-    <body>
-        
-        <div class="body">
-        
-            <h1 id="personal">PERSONAL DETAILS</h1>
-            <P>NAME ; JOHN WANJEMA</P>
-            <p>AGE ; 22</p>
-            <P>NATIONALITY ; KENYAN</P>
-            <P>D.O.B ; 15/10/1997</P>
-            <a href="#education"><button type="button">Next</button></a>
-            <hr>
-            
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wanjema</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.7.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
 
-            <h1 id="education">EDUCATION</h1>
-            <p>PRIMARY; GOOD SHEPHERD CATHOLIC ACADEMY</p>
-            <p>SECONDARY ; LAISER HIGH</p>
-            <P>UNIVERSITY; TECHNICAL UNIVERSITY OF KENYAN</P>
-            <a href="#projects"><button type="button">Next</button></a>
-            <hr>
-
-            <h1 id="projects">PROJECTS</h1>
-            <p>Some of the projects i have done</p>
-            <p>1: Hello world </p>
-            <p>2; My resume</p>
-            <hr>
-            
-
-
-
-            <h1 id="hobbies">HOBBIES</h1>
-            <p>Some of MY hobbies include;</p>
-            <p>1;Swimming</p>
-            <p>2;Coding</p>
-            <p>3; Reading novels</p>
-            <hr>
-            
-
-
-            <h1 id="contacts">CONTACTS</h1>
-            <p>Phone number ; 0721273839</p>
-            <p>email ;jonwanjema@gmail.com</p>
-            <p>postal adress ; 27610-00100</p>
-            <a href="#header"><button type="button">TOP</button></a>
-            <hr>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-link is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <h3 class="title is-3 is-link">WANJEMA</h3>
+            </a>
+            <div class="navbar-burger burger is-active" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    </body>
-        
-    <div class="footer">
-            <footer>
-                <p><marquee>John Wanjema Moringa School copyrighy@ 2019 all rights reserved </marquee></p>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">
+                    <span class="icon">
+                        <i class="fas fa-info"></i>
+                    </span>
+                    <span>About</span>
+                </a>
+                <a class="navbar-item" href="#services">
+                    <span class="icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                    <span>Services</span>
+                </a>
+                <a class="navbar-item" href="#portfolio">
+                    <span class="icon">
+                        <i class="fas fa-th-list"></i>
+                    </span>
+                    <span>Projects</span>
+                </a>
+                <a class="navbar-item" href="#contact">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+    </nav>
 
-            </footer>
+    <!-- Header -->
+    <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1">Hello! I am <br>
+                    JOhn wanjema
+                </h1>
+                <h2 class="subtitle is-3">
+                    Full Stack Web Developer
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <div class="container">
+        <section class="section" id="about">
+            <!-- Title -->
+            <div class="section-heading">
+                <h3 class="title is-2">About Me</h3>
+                <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
+                <!-- <div class="container"> -->
+                <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+                    field of
+                    <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for
+                    <strong>Coffee</strong>.
+                    Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+                    believes
+                    in gaining a competitive edge and giving back to the community.</p>
+            </div>
+
+
+            <div class="columns has-same-height is-gapless">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <!-- Skills -->
+                    <div class="card">
+                        <div class="card-content skills-content">
+                            <h3 class="title is-4">Skills</h3>
+                            <div class="content">
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p><strong>JavaScript:</strong>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p><strong>Angular.js:</strong>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>Python</strong>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>HTML5/CSS3</strong>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>Databases</strong>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-heading">
+                <h3 class="title is-2">Services</h3>
+                <h4 class="subtitle is-5">What can I do for you?</h4>
+            </div>
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <div class="content">
+                                <h4 class="title is-5">Front End Web Development</h4>
+                                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using
+                                JavaScript and
+                                Vue.js.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <div class="content">
+                                <h4 class="title is-5">Back End Web Development</h4>
+                                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo
+                                DB
+                                databases.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <div class="content">
+                                <h4 class="title is-5">Front End Web Development</h4>
+                                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using
+                                JavaScript and
+                                Vue.js.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <div class="content">
+                                <h4 class="title is-5">Back End Web Development</h4>
+                                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo
+                                DB
+                                databases.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio -->
+        <section class="section" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h3 class="title is-2">Projects</h3>
+                    <h4 class="subtitle is-5">My latest works</h4>
+                </div>
+                <br>
+                <div class="container portfolio-container">
+                    <div class="columns">
+                        <div class="column is-4">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        <span>Delani Studio</span>
+                                        <span class="is-pulled-right">
+                                            <span class="tag is-default">CSS and HTML</span>
+                                            <span class="tag is-default">Javascript</span>
+                                        </span>
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <figure class="image">
+                                        <img src="images/Screenshot from 2019-08-24 10-52-27.png"
+                                            alt="Hero template screenshot">
+                                    </figure>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://johnwanjema.github.io/delanistudio/"
+                                        class="card-footer-item">Preview</a>
+
+                                </footer>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="column is-4">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        <span>Quotes</span>
+                                        <span class="is-pulled-right">
+                                            <span class="tag is-default">Angular</span>
+                                            <span class="tag is-default">CSS and HTML</span>
+                                        </span>
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <figure class="image">
+                                        <img src="images/Screenshot from 2019-08-24 11-19-15.png"
+                                            alt="Hero template screenshot">
+                                    </figure>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://johnwanjema.github.io/quotes/" class="card-footer-item">Preview</a>
+
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="column is-4">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        <span>Instagram Clone</span>
+                                        <span class="is-pulled-right">
+                                            <span class="tag is-default">Django</span>
+                                            <span class="tag is-default">CSS and HTML</span>
+                                        </span>
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <figure class="image">
+                                        <img src="images/Screenshot from 2019-08-24 11-26-37.png"
+                                            alt="Hero template screenshot">
+                                    </figure>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://wanjema.herokuapp.com" class="card-footer-item">Preview</a>
+
+                                </footer>
+                            </div><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="title is-2">Contacts</h3>
+                            <h4 class="subtitle is-5">Get in touch</h4>
+                            <div class="content">
+                                <p>Email: jonwanjema@gmail.com</p>
+                                <p></p>
+                                <p>Postal_Address: 27610-00100</p>
+                            </div>
+                            <br>
+                            <div class="buttons has-addons is-centered">
+                                <a href="https://github.com/johnwanjema" title="Website name" class="button is-link"><i
+                                        class="fab fa-github fa-2x"></i>
+                                    GIthub</a>
+                                <a href="https://jonwanjema@gmail.com" target="blank" class="button is-link"><i
+                                        class="fas fa-paper-plane fa-2x"></i>Email</a>
+
+                                <a href="#" target="blank" class="button is-link fa-3x"><i class="fab fa-linkedin-in fa-2x"></i>LinkedIn</a>
+
+                                <a href="https://https://www.instagram.com/jon1_njema/" target="blank"
+                                    class="button is-link"><i class="fab fa-instagram fa-2x"></i>Instagram</a>
+
+                                <a href="https://twitter.com/1Njema" target="blank" class="button is-link"><i
+                                        class="fab fa-twitter fa-2x"></i>Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </section>
     </div>
+</body>
+
 </html>
