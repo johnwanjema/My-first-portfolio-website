@@ -3,7 +3,7 @@ html {
 }
 
 .section {
-  height: 1000px;
+  height: 600px;
   padding-top: 100px;
 }
 
@@ -12,5 +12,5 @@ html {
 }
 
 #contact{
-  padding-top: 200px;
+  padding-top: 60px;
 }
